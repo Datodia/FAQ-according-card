@@ -62,20 +62,20 @@ body {
     font-size: 13px;
 }
 
-.container .box .text-box .answer {
+.container .box .text-box .questions .answer {
     padding: 0 25px;
     max-height: 0;
     overflow-y: hidden;
     transition: all 1s;
 }
 
-.container .box .text-box .answer.active {
+.container .box .text-box .questions .answer.active {
     max-height: 300px;
 }
 
 
 
-.container .box .text-box .answer p {
+.container .box .text-box .questions .answer p {
     font-size: 11px;
 }
 
