@@ -55,11 +55,15 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px 25px;
-    border-bottom: 1px solid gray;
 }
 
 .container .box .text-box .questions .item p {
     font-size: 13px;
+}
+
+.container .box .text-box .questions .item.active img {
+    transform: rotate(180deg);
+    transition-duration: .5s;
 }
 
 .container .box .text-box .questions .answer {
@@ -67,6 +71,13 @@ body {
     max-height: 0;
     overflow-y: hidden;
     transition: all 1s;
+}
+
+.container .box .text-box .questions .line {
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color: gray;
 }
 
 .container .box .text-box .questions .answer.active {
@@ -77,6 +88,7 @@ body {
 
 .container .box .text-box .questions .answer p {
     font-size: 11px;
+    padding-bottom: 10px;
 }
 
 /* .title {
