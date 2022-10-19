@@ -1,0 +1,31 @@
+@media screen and (min-width: 1024px) {
+    .container .box {
+        width: 920px;
+        height: 509px;
+        display: flex;
+    }
+
+    .container .box .img-box {
+        width: 40%;
+    }
+
+    .container .box .img-box .mob-img {
+        width: 379px;
+        height: 278px;
+        left: -81px;
+        top: 106px;
+    }
+
+    .container .box .img-box .mob-img-down {
+        width: 345px;
+        height: 278px;
+        top: -66px;
+        left: -46px;
+    }
+
+    .container .box .text-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
