@@ -85,7 +85,7 @@ body {
     width: 90%;
     margin: auto;
     height: 1px;
-    background-color: gray;
+    background-color: #E8E8EA;
 }
 
 .container .box .text-box .questions .answer.active {

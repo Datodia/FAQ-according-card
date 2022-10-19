@@ -28,4 +28,32 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    .container .box .text-box h1 {
+        text-align: start;
+    }
+
+    .container .box .text-box .questions .item p {
+        font-size: 14px;
+    }
+
+    .container .box .text-box .questions .answer p {
+        font-size: 12px;
+    }
+
+    .container .box .text-box .questions .item {
+        padding: 15px 0;
+    }
+
+    .container .box .text-box .questions .answer {
+        padding: 0;
+    }
+
+    .container .box .text-box .questions .line {
+        width: 100%;
+    }
+
+    .container .box .text-box .questions .item p:hover {
+        color: #F47B56;
+    }
 }
